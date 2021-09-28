@@ -1,0 +1,44 @@
+@import url(./header-footer.css);
+@import url(./mediaquaries.css);
+@import url(./common-contact-section.css);
+
+
+.testimonials-landing-page
+{
+    background-image:linear-gradient(to bottom ,rgba(3, 44, 68, 0.885),rgba(3, 54, 83, 0.825)) ,url(../images/office2.jpg);
+    background-position: right;
+    background-size: cover;
+    clip-path:polygon(0% 0%,100% 0%,100% 100%,0% 95%);
+}
+.testimonials-landing-page p
+{
+ max-width: 700px;
+ font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.reviewer-image img
+{
+ width: 100%;
+}
+main{
+    background-image:linear-gradient(to bottom,rgb(173, 208, 255),rgb(255, 247, 247));
+    background-attachment: fixed;
+}
+
+.review-card
+{
+    background-image:linear-gradient(to bottom,rgb(173, 208, 255),rgb(255, 247, 247)) ,url(../images/office2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.review-text p
+{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: rgb(92, 92, 92);
+}

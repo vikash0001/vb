@@ -1,0 +1,63 @@
+
+
+@media only screen and (max-width:766px) {
+  /* <home-page> */
+
+.contact-right
+{
+    width: 100%;
+}
+.style-dots-2
+{
+    display: none;
+}
+.style-dots-1
+{
+   bottom: -140px;
+   left: -80px;
+  
+}
+.style-dots-3
+{ 
+   top: -150px;
+   right: -120px;
+   display: none;
+  
+}
+.style-dots-4
+{   
+  display: none;
+}
+  /* </home-page> */
+}
+@media only screen and (max-width:991px) {
+    /* <home-page> */
+    .nav-links li
+    {
+        display: block;
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .nav-links
+    {   margin: 0;
+        width: 100vw;
+        height: 0vh;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        overflow: hidden;
+        z-index: 10000;
+        transition: all ease-in-out 0.35s;
+        padding: 0;
+    }
+    .menu-toggler
+    {
+        display: block;
+        cursor: pointer;
+    }
+    .nav-links-active
+    {
+        height: 50vh;
+    }
+    /* </homepage> */
+}

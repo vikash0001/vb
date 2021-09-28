@@ -1,0 +1,137 @@
+  
+
+                                         /* header */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.website-wrapper
+{
+    overflow-x: hidden;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 999999;
+    box-shadow: rgba(0, 0, 0, 0.165) 0px 5px 15px 5px;
+    transition: all linear 0.30s;
+}
+.nav-bar
+{   height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+} 
+.menu-toggler
+{
+    display:none;
+}
+.line{
+    width: 30px;
+    height: 4px;
+    margin: 5px;
+   background-color: black;
+   transform-origin: center;
+   transition: all ease-in-out 0.2s;
+}
+.menu-toggler-active .line1
+{
+    transform:rotateZ(45deg) translateY(12px);
+    background-color: orangered;
+}
+.menu-toggler-active .line2
+{
+    transform: rotateZ(45deg);
+    opacity: 0;
+    background-color: orangered;
+}
+.menu-toggler-active .line3
+{
+    transform:rotateZ(-45deg)  translateY(-12px);
+    background-color: orangered;
+}
+.nav-links
+{
+    margin: 0;
+    background-color: white;
+}
+.nav-links li{
+    display: inline;
+    margin-left:24px;
+    list-style: none;
+}
+.nav-links li a
+{
+    font-size: 0.95rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+
+                                   /* footer */
+    
+                                   
+
+
+footer
+{
+    padding: 100px 10px;
+}
+.footer-left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0px;
+}
+footer h2
+{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.footer-left p
+{
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.602);
+}
+.footer-links
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer ul li
+{
+    margin: 15px 0px;
+    list-style: none;
+}
+footer ul li a
+{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+footer ul li a:hover
+{
+    color: orangered;
+}
+.emaillink
+{
+    color: orangered;
+    text-decoration: none;
+    margin: 20px 0px;
+}
