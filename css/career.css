@@ -1,0 +1,58 @@
+@import url(../css/header-footer.css);
+@import url(../css/common-contact-section.css);
+@import url(../css/mediaquaries.css);
+
+
+
+.career-landing-page
+{
+    background: #f3f3f3;
+    position: relative;
+    top: 0;
+    background-image: url(../images/career_hp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 95%); */
+}
+.career-landing-page h1 , .jot h1
+{
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: white;
+    text-transform: capitalize;
+}
+.career-landing-page p 
+{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.who-we-are p
+{   font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: rgb(124, 124, 124);
+}
+.our-values .card{
+    max-width: 350px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+.our-values .card span
+{
+    color: orangered;
+}
+
+.jot
+{
+    background-image:linear-gradient(to bottom,rgba(54, 0, 54, 0.86),rgba(54, 1, 54, 0.998)) ,url(../images/bg1.jpg);
+    background-size: cover;
+    color: white;
+}
+.jot input
+{
+    height: 50px;
+}
