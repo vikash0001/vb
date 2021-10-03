@@ -7,12 +7,11 @@
 .career-landing-page
 {
     background: #f3f3f3;
-    position: relative;
-    top: 0;
+   background-position:top ;
     background-image: url(../images/career_hp.png);
     background-size: cover;
     background-repeat: no-repeat;
-    /* clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 95%); */
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 95%);
 }
 .career-landing-page h1 , .jot h1
 {
@@ -34,6 +33,10 @@
     line-height: 2rem;
     font-weight: 400;
     color: rgb(124, 124, 124);
+}
+.our-values
+{
+    clip-path: polygon(0% 0%,100% 50px,100% 100%,0% 100%);
 }
 .our-values .card{
     max-width: 350px;

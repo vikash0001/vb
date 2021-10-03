@@ -28,12 +28,29 @@ main{
     background-attachment: fixed;
 }
 
-.review-card
+.review-card-container
 {
     background-image:linear-gradient(to bottom,rgb(173, 208, 255),rgb(255, 247, 247)) ,url(../images/office2.jpg);
     background-size: cover;
     background-attachment: fixed;
-
+}
+.review-card-container h1
+{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform:uppercase;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+.review-card-container h1::before
+{
+position: absolute;
+content: '';
+width: 50px;
+height: 3px;
+background-color: orangered;
+bottom: -10px;
+left: 15;
 }
 .review-text p
 {
@@ -41,4 +58,12 @@ main{
     line-height: 2rem;
     font-weight: 400;
     color: rgb(92, 92, 92);
+}
+.text_review_card , .video-card
+{
+    background-color: rgba(0, 0, 0, 0.041);
+}
+.video-card
+{
+    flex-wrap: wrap-reverse;
 }

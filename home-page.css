@@ -1,6 +1,7 @@
 @import url(./css/header-footer.css);
 @import url(./css/common-contact-section.css);
 @import url(./css/mediaquaries.css);
+@import url(./css/common_service.css);
 
 *
 {
@@ -9,19 +10,16 @@
     box-sizing: border-box;
 }
 
-#hero
+.hero
 {
     background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.898),rgba(0, 0, 0, 0.841)), url(./images/bg2.jpg);
     background-size: cover;
     background-position: bottom;
     clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 95%);
 }
-.hero-text
-{
-    padding: 16vw 0vw;
-}
-.title h1
-{
+
+.hero h1
+{   position: relative;
     font-size: 0.95rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -29,22 +27,21 @@
     word-spacing: 1rem;
     color: rgb(255, 81, 0);
 }
-.title::after
+.hero h1::after
 {
     content: '';
     position: absolute;
     width: 40px;
     height: 3px;
+    bottom: -10px;
+    left: 0;
     background-color: orangered;
 }
 .heading
 {
     font-size: clamp(1.3rem,8vw,3.5rem);
     font-weight: 700;
-    line-height: 5rem;
-    line-height: clamp(2rem,9vw,4.7rem);
-    margin-bottom: 10px;
-    margin-top: 25px;
+    line-height: clamp(2rem,9vw,4.4rem);
     color: white;
     text-transform: capitalize;
 }
@@ -163,49 +160,7 @@
     width:clamp(62px , 19vw , 150px );
     margin: 15px;
 }
-.our-services
-{   
-    position: relative;
-    background: #f3f3f3;
-    background-image: linear-gradient(to bottom,rgb(14, 1, 14,0.9),rgb(16, 0, 16,0.9)),url(./images/office2.jpg);
-    background-size: cover;
-    clip-path:polygon(0% 0%,100% 5%,100% 100%,0% 100%);
-    color: white;
-}
-.our-services h1
-{
-    font-size: 1.6rem;
-    font-weight: 600;
-    text-transform:uppercase;
-    color: white;
-    position: relative;
-}
 
-/* heading styling before */
-
-.our-services h1::before ,.our-clients h1::before ,.services h1::before
-{
-position: absolute;
-content: '';
-width: 50px;
-height: 3px;
-background-color: orangered;
-bottom: -10px;
-left: 15;
-}
-
-.our-services strong
-{
- font-size: 1.5rem;
- font-weight: 600;
- margin-bottom: 25px;
-}
-.our-services p
-{
-    font-weight: 400;
-    margin-top: 15px;
-    text-align: left;
-}
 #join-us
 {
 background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.864),rgba(0, 0, 0, 0.805)),url(./images/bg2.jpg);
