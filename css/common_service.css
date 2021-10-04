@@ -34,6 +34,7 @@ left: 15;
  padding: 20px;
  background-color: rgba(255, 255, 255, 0.075);
  border-radius: 3px;
+ clip-path: polygon(0% 10px,100% 0%,90% 100%,0% 100%);
 }
 
 .our-services strong
