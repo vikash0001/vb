@@ -14,7 +14,7 @@
 {
     font-size: 4.5rem;
     font-weight: 900;
-    padding: 0vw 50px 0px 0px;
+    padding: 50px 50px 100px 0px;
 }
 .contact-left-text
 {
@@ -77,4 +77,10 @@ textarea
     padding: 7px 25px;
     font-weight: 600;
     border-radius: 5px;
+}
+.style-dots-4
+{
+    position: absolute;
+    opacity: 0.3;
+    top: 50%;
 }
